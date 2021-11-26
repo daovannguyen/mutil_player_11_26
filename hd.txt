@@ -1,10 +1,15 @@
 echo "# mutil_player_11_26" >> README.md
+
 git init
-git add README.md
-git commit -m "first commit"
+git add *
+git commit -m "import library"
 git branch -M main
 git remote add origin https://github.com/daovannguyen/mutil_player_11_26.git
 git push -u origin main
+
+
+
+
 …or push an existing repository from the command line
 git remote add origin https://github.com/daovannguyen/mutil_player_11_26.git
 git branch -M main
